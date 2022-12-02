@@ -1,0 +1,114 @@
+body {
+  font-size: 62.5%;
+}
+
+body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
+  font-size-adjust: 0.5;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.625;
+}
+
+#publication p {
+  font-size: 95%;
+}
+
+/* Small screens */
+/* Define mobile styles */
+@media only screen {
+  h2 {
+    font-size: 1.10em;
+    line-height: 161.8%;
+  }
+  h3 {
+    font-size: 1.0rem;
+  }
+  .cv li, p.cv, .cv p, p.bio {
+    font-size: 85%;
+  }
+}
+
+@media only screen and (min-width: 35.063em) {
+  h2 {
+    font-size: 1.50rem;
+    line-height: 161.8%;
+  }
+  h3 {
+    font-size: 1.11rem;
+  }
+}
+
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (max-width: 40em) { }
+
+/* Medium screens */
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) {
+  .cv li, p.cv, .cv p, p.bio {
+    font-size: 75%;
+  }
+  h2 {
+    font-size: 1.00rem;
+    line-height: 161.8%;
+  }
+  h3 {
+    font-size: 0.80rem;
+  }
+}
+
+@media only screen and (min-width: 48.063em) {
+  h2 {
+    font-size: 1.075rem;
+    line-height: 161.8%;
+  }
+  h3 {
+    font-size: 0.86rem;
+  }
+}
+
+@media only screen and (min-width: 56.063em) {
+  h2 {
+    font-size: 1.25rem;
+    line-height: 161.8%;
+  }
+  h3 {
+    font-size: 1.0rem;
+  }
+}
+
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { }
+
+/* Large screens */
+/* min-width 1025px, large screens */
+@media only screen and (min-width: 64.063em) {
+  .cv li, p.cv, .cv p, p.bio {
+    font-size: 0.85rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+    line-height: 161.8%;
+  }
+  h3 {
+    font-size: 1.0rem;
+  }
+}
+
+/* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { }
+
+/* XLarge screens */
+/* min-width 1441px, xlarge screens */
+@media only screen and (min-width: 90.063em) { }
+
+/* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { }
+
+/* XXLarge screens */
+/* min-width 1921px, xxlarge screens */
+@media only screen and (min-width: 120.063em) { }
+
+.side-nav li {
+  font-size: 1.130rem;
+}
+

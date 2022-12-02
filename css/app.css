@@ -1,0 +1,112 @@
+
+@font-face{
+  font-family: 'League Spartan';
+  src: url('../fonts/LeagueSpartan/leaguespartan-bold.eot');
+  src: url('../fonts/LeagueSpartan/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/LeagueSpartan/leaguespartan-bold.woff2') format('woff2'),
+       url('../fonts/LeagueSpartan/leaguespartan-bold.woff') format('woff'),
+       url('../fonts/LeagueSpartan/leaguespartan-bold.ttf') format('truetype'),
+       url('../fonts/LeagueSpartan/leaguespartan-bold.svg#league_spartanbold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  color:black;
+}
+
+a {
+  color:black;
+}
+
+html {
+  font-family:Helvetica, Arial, sans-serif;
+  font-style:normal;
+}
+
+h1, h2, h3, h4, h5, h6, .center-nav li a, .center-nav li.active a, .side-nav li a, .side-nav li.active a{
+  font-family:'Source Code Pro', Helvetica, Arial, sans-serif;
+  /*line-height: 1em;*/
+}
+
+footer {
+  font-family:'Source Code Pro', Helvetica, Arial, sans-serif;
+  font-weight:bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight:bold;
+}
+
+/*
+@media only screen and (max-width: 30em) {
+  div.title {bottom:15%;}
+}
+
+@media only screen and (min-width: 30.063em) and (max-width: 40em) {
+  div.title {bottom:15%;}
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 52em) {
+  div.title {bottom:20%;}
+}
+
+@media only screen and (min-width: 52.063em) and (max-width: 60em) {
+  div.title {bottom:15%;}
+}
+
+@media only screen and (min-width: 60.063em) {
+  div.title {bottom:12%;}
+}
+*/
+
+a, a:link, a:visited {
+  color: rgb(127,39,4);
+}
+
+a:hover {
+  color: black;
+}
+
+.center-nav li:not(.button), .side-nav li a:not(.button) {
+  color: #333333;
+  background: white;
+  margin:0;
+  padding:0;
+}
+
+.center-nav li a:not(.button):hover, .center-nav li a:not(.button):focus, .side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus {
+  color: rgb(127,39,4);
+  background: white;
+}
+
+.center-nav li.active > a:first-child:not(.button), .side-nav li.active > a:first-child:not(.button) {
+  font-family:'Source Code Pro', Helvetica, Arial, sans-serif;
+  color: black;
+  font-weight:bold;
+}
+
+.title {
+  z-index:2;
+  position:absolute;
+  width:75%;
+  bottom:10%;
+  left:12.5%;
+  background-color:transparent;
+  opacity:1.0;
+}
+
+.title h2 {
+  margin:0;
+  padding:0;
+  font-weight:bolder;
+}
+
+.title.white h2 {
+  color:white;
+}
+
+.title.black h2 {
+  color:black;
+}
+
